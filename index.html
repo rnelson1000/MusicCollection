@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Music Reports</title>
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
+    <link href="Assets/Javascript/JQuery-Tablesorter/themes/blue/style.css" rel="stylesheet">
+    <script src="Assets/Javascript/JQuery/jquery-1.10.1.min.js"></script>
+    <script src="Assets/Javascript/JQuery-Tablesorter/jquery.tablesorter.min.js"></script>
+    <script src="Assets/Javascript/Report.js"></script>
+
+</head>
+
+<body>
+
+    <select id="selectReport">
+        <option name="reportoption" value="">--SELECT--</option>
+        <option name="reportoption" value="all">All Songs</option>
+        <option name="reportoption" value="genre">All songs by genre</option>
+        <option name="reportoption" value="counts">Artist track/album count</option>
+    </select>
+
+    <table id="reports" class="table table-striped tablesorter"></table>
+
+    </body>
+</html>
